@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Attributes</title>
+</head>
+<body>
+    <form action="input.html" method="post" id="form1" autocomplete="off" target="_self">
+        <input type="text" placeholder="username" name="username" autocomplete="on" required>
+
+        <input type="text">
+        <input type="password" placeholder="password" name="password" required>
+        <input type="submit">
+        <input type="submit" formmethod="get" formaction="https://www.google.com" value="Save">
+    </form>
+
+    <input type="email" name="email" required placeholder="email" form="form1">
+    
+    <input type="submit" form="form1" >
+</body>
+</html>

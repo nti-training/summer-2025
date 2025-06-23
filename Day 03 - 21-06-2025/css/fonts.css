@@ -1,0 +1,33 @@
+@font-face {
+    font-family: custom;
+    src: url(/fonts/Roboto-VariableFont_wdth\,wght.ttf);
+}
+html {
+    font-size: 20px;
+}
+div {
+    text-align: right;
+
+}
+
+p{
+    font-size: inherit;
+    background-color: inherit;
+    border: inherit;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: 100;
+}
+
+p.cls {
+    font-size: 1em;
+    font-family: custom;
+    font-weight: 800;
+} 
+.fa-solid{
+    color: red;
+}
+
+.fa-solid:hover{
+    color: blueviolet;
+}

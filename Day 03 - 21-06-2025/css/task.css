@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #b1f6ff;
+}
+main{
+    background-color: white;
+    width: 50%;
+    height: 70vh;
+    margin: 15vh auto;
+}
+main > * {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.left {
+    padding-left: 15px;    
+}
+.right{
+    background-color: blue;
+    
+}
+.left .header{
+    padding: 10px 0;
+    /* background-color: yellow; */
+}
+/* 20 */
+.left > .header >  h2, 
+.left .haeder a {
+    float: left;
+    font-size: 12px;
+
+}
+/* 21 */
+.left .header a{
+    float: right !important;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+.clr {
+    clear: both;
+}
+
+label {
+    display: block;
+    padding: 5px 0;
+}
+
+.amount > div {
+    border: 1px solid #ddd;
+    width: fit-content;
+    background-color: green;
+    height: 20px;
+}
+
+.amount > div * {
+    float: left;
+    height: 100%;
+}
+
+.amount > div span {
+    background-color: #b1f6ff;
+    width: 10%;
+    text-align: center;
+}
+
+.amount > div input{
+    border: none;
+    outline:none;
+    width:90%;
+}

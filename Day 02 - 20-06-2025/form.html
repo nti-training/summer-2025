@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            display: inline-block;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    
+    <form action="">
+
+        <fieldset>
+            <legend> Personal Info</legend>
+            <div>
+            <label for="">First Name</label>
+            <input type="text" placeholder="first name"
+            required
+            >
+        </div>
+
+        <div>
+             <label for="">Email</label>
+            <input type="text"
+            value="email"
+            placeholder="example@info.com"
+            disabled
+            >
+        </div>
+        </fieldset>
+
+        <select name="" id="" required >
+            <option value="">1</option>
+            <option value="" selected>2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+        </select>
+
+        <select name="" id="" >
+            <optgroup label="Front-End">
+                <option value="">HTML</option>
+                <option value="">CSS</option>
+                <option value="">JS</option>
+                <option value="">React</option>
+            </optgroup>
+            <optgroup label="Back-End">
+                <option value="">Node</option>
+                <option value="">Typscript</option>
+                <option value="">Mongo</option>
+            </optgroup>
+            
+        </select>
+
+        <div>
+            <input list="contries">
+            <datalist id="contries">
+                <option value="Egypt">
+                <option value="Syria">
+                <option value="KSA">
+            </datalist>
+        </div>
+
+        <textarea name="" id="" rows="20" cols="50"></textarea>
+
+        <button type="submit">Click Here</button>
+       
+
+        <input type="submit">
+       
+    </form>
+
+</body>
+</html>
