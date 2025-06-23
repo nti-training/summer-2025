@@ -31,7 +31,7 @@ Each session builds on the previous one, introducing new concepts and practical 
 
 ## 📝 Outline
 
-The `outline_topics.md` file contains the full recommended training outline.  
+The `outline_topics.txt` file contains the full recommended training outline.  
 This outline is a living document, and new topics may be added to enhance the course.
 
 ---
