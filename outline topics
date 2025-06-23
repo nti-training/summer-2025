@@ -1,0 +1,150 @@
+
+Outline 
+
+01 - What are the types of applications?
+02 - How Internet works?
+03 - What is the web ?
+04 - What is the front-end and back-end?
+05 - waht is the front-end frameworks?
+06 - what is html?
+07 - what is the css?
+08 - what is the javascript?
+09 - Differentiate between html, css, and javascript
+10 - HTML
+	+ Introduction
+	+ Tags
+		- DOCTYPE
+		- HTML Versions
+		- html, head, body
+		- w3schools style guid
+		- head tags [ meta tags, title, css, js, favicon ]
+		- attributes
+		- heading [h1-h6]
+		- paragraphs <p>
+		- comments
+		- line break <br> , <hr>
+		- text formatting [strong, bold, i, em, mark, small, del, ins, sub, sup]
+		- quotations [blockquote, q, abbr, address, cite, bdo]
+		- links <a> [anchor, whatsapp, email, ... ]
+		- file paths
+		- images <img>
+		- table
+		- list [ol, ul, dl]
+		- div Vs span
+		- block VS inline
+		- id and class
+		- computercode
+		- symbols and emojis
+		- sementic elements
+		- layout
+		- audio and video
+		- iframe
+		- forms 
+		
+
+11 - CSS
+	- what is css?
+	- syntax
+	- basic selectors [*, element, class, id]
+	- where we can write css ? [Inline, Internal, External]
+	- comment
+	- color [from w3schools html tutorial]
+	- background [image - color]
+		- background
+		- background-color
+		- backgroung-image
+		- background-repeat
+		- background-position
+		- background-size
+		- background-attachement
+	- padding
+	- margin
+	- border
+	- box-model / box-size
+	- display [inline, block, inline-block]
+	- margin collapse
+	- visability
+	- grouping and nesting [selector]
+	- width and hieght
+	- overflow 
+	- text
+		- color
+		- text-align
+		- direction
+		- text-decoration
+		- text-transform
+		- text spacing
+			- letter spacing
+			- text-indent
+			- line-height
+			- word-spacing
+			- white-spacing
+			- word-break
+		- text-overflow
+		- text-shadow: H-shadow Y-shadow blur color
+	- font
+		- web-safe fonts
+		- fonts fallbacks
+		- font-family
+		- font-size
+		- font-weight
+		- font-style
+		- @font-face
+		- google fonts
+	- css units
+	- opacity
+	- cursor
+	- float and clear
+	- var
+	- calc
+	- positions
+	- z-index
+	- important
+	- font awesome
+	- list and tables
+	- psuedo calsses [checked, empty, focus, hover]
+	- pseudo elements [first letter, first line, selection]
+	- before and after
+	- counter-increment
+	- vendor prefixes
+	- border-radius
+	- box-shadow: H-shadow y-shadow blur blur spread color inset
+	- transition
+	- flex-box
+	- grid
+	- gradient [linear, ]
+	- transform
+	- animation
+	- selectors [deep]
+	- responsize design [media query]
+	- global values
+12 - BOOTSTRAP
+	- good knowledeg [file structure, break points, grid system, containers, bg , text, components, layout]
+13 - JAVASCRIPT
+	- what is javascript?
+	- syntax and comments
+	- where we can write javascript?
+	- output
+	- what is ES? and ES6
+	- data types
+	- variables and naming conventions
+	- let var const
+	- string [concatenation, Template Literals]
+	- Operators [Arithmetic, Assignnment, Comparison]
+	- type coercion
+	- Number methods
+	- Math Object
+	- String methods
+	- Conditions [if , switch]
+	- Array
+	- Loops [for while, do-while, break, contiue]
+	- Functions [Syntax, args, default values, rest, nested, anonymous, arrow, block scope]
+	- HOF [map, filter, reduce, forEach]
+	- Object
+	- OOP
+	- DOM [attributes, parent , child, create elements, events, styling, classList, traverse clone]
+	- BOM [timeout, interval, location, history,scroll, local storage, session storage]
+	- JSON , API
+	- Call Stack, Event Loop
+	- Promiss
+	- Fetch API
