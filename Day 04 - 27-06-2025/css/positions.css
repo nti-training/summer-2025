@@ -1,0 +1,67 @@
+.one {
+    background-color: red;
+    position: relative;
+    /* top: 20px;
+    left: 20px; */
+    right: 20px;
+}
+.two {
+    background-color: rebeccapurple;
+    position: absolute;
+    right: 20px;
+}
+.three{
+    background-color: blue;
+    width: 300px !important;
+}
+
+.one,
+.two,
+.three{
+    width: 200px;
+    margin: 0;
+    padding: 10px;
+}
+
+header {
+
+    background-color: black;
+    color: wheat;
+    text-align: center;
+
+    position: sticky;
+    top: 0;
+
+    /* z-index: 1; */
+}
+
+header + :hover{
+    background-color: rgb(10, 89, 142) !important;
+    padding: 20px;
+}
+
+h2 {
+    background-color: rgb(10, 89, 142);
+    position: fixed;
+    bottom: 30px;
+    top: 100px;
+    right: 50px;
+}
+
+.parent {
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    position: relative    ;
+    z-index: -2;
+}
+
+
+.child{
+    background-color: rgb(3, 112, 38);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    
+}
