@@ -1,0 +1,39 @@
+.parent {
+    background-color: rgb(242, 234, 196);
+    padding: 10px;
+    height: 400px;
+    color: #fff;
+
+    display: grid;
+    /* grid-template-columns: 100px  100px auto; */
+    /* grid-template-columns: repeat(2,100px) auto 1fr 2fr; */
+    grid-template-columns: repeat(2,100px) repeat(3,50px) repeat(2,30px);
+    grid-template-rows: 40px 50px 60px;
+    gap: 10px;
+    
+    align-content: center;
+    justify-content: center;
+    place-content: center;
+}
+
+.child {
+    background-color: rgb(150, 105, 21);
+
+    display: grid;
+    place-content: center;
+}
+
+.two {
+    background-color: black;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-column: 2 / 5;
+    grid-column: 2 / span 3;
+
+    grid-row-start: 2;
+    grid-row-end: span 2;
+    grid-row: 2 / span 2;
+
+    
+
+}

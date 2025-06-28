@@ -1,0 +1,121 @@
+/* grid-auto-rows: 150px; */
+
+:root{
+    --back-top: #050a1c;
+    --back-bottom: #0a153f;
+    --nav-back: #1f2534;
+    --mode-back: #2e364a;
+    --active-back:#2f354b;
+    --extension-back: #1f2534;
+    --main-color: #ef5e56;
+    --x-padding: 15%;
+}
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+main {
+    padding: 1rem var(--x-padding);
+    /* height: 100vh; */
+    background: linear-gradient( var(--back-top), var(--back-bottom));
+}
+
+header{
+    background-color: var(--nav-back);
+    color: #fff;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+header .logo .fa-life-ring{
+    color: var(--main-color);
+    font-size: 30px;
+}
+
+header .fa-sun {
+    background-color: var(--mode-back);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.extensions-list{
+    padding: 2rem 0 ;
+    color: #fff;
+    /* background-color: red; */
+}
+
+.extensions-list .head {
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+    padding: 1.6rem 0;
+}
+.extensions-list .head .btns {
+    display: flex;
+    gap: 0.7rem;
+}
+.btn {
+    background-color: var(--active-back);
+    border: none;
+    outline: none;
+        padding: 6px 13px;
+    color: #aaa;
+    border-radius: 22px;
+    font-size: 10px;
+}
+.btn.all{
+    background-color: var(--main-color);
+}
+
+
+@media (max-width: 768px) {
+    .extensions-list .head{
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+.extensions{
+    padding: 1rem 0;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.extension{
+    padding: 1rem;
+    background-color: var(--extension-back);
+    border-radius: 10px;
+}
+
+.extensions .extension .top 
+ {
+    display: flex;
+    gap:1rem;
+    padding: 10px 0;
+ }
+
+ .extensions  .extension .top i {
+    /* background-color: red; */
+    font-size: 36px;
+ }
+
+ .extensions .extension .bottom{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+ }

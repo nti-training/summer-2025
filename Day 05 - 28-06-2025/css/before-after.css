@@ -1,0 +1,66 @@
+p {
+    background-color: #ddd;
+    padding: 20px;
+    width: 80%;
+    position: relative;
+    counter-increment: list;
+}
+
+p::before{
+    content: counter(list);
+    background-color: teal;
+    color: tan;
+    padding: 10px;
+    margin-right: 15px;
+}
+p::after {
+    --width:10px;
+    --height:70%;
+    content: "";
+    position: absolute;
+    width: var(--width);
+    height: var(--height);
+    
+    background-color: rebeccapurple;
+    right: calc(-0.5 * var(--width));
+    top: calc((100% - var(--height) )/ 2);
+}
+
+ul {
+    --main-width: 40px;
+    padding: 10px 0px 10px calc(1.5 * var(--main-width));
+    background-color: #ddd;
+    list-style-type: none;
+    width: 50%;
+    margin: auto;
+    color: white;
+
+    counter-increment: outer;
+}
+li {
+    display: flex;
+    align-items: center;
+    height: var(--main-width);
+    background-color: rgb(106, 78, 73);
+    margin: 5px;
+    padding-left: 10px;
+
+
+    position: relative;
+    counter-increment: inner;
+}
+
+li::before{
+    content: counter(outer) "." counter(inner);
+    position: absolute;
+    width: var(--main-width);
+    height: var(--main-width);
+    background-color: black;
+    color: white;
+    left: calc( -1.5 *  var(--main-width));
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
