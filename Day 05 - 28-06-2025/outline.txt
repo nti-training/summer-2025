@@ -1,0 +1,9 @@
+visibilty hidden vs display none
+opacity
+cursor
+table 
+before after
+pesudo class
+pesudo elements
+grid
+counter
