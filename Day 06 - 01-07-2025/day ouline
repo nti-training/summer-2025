@@ -1,0 +1,32 @@
+
+Outline 
+	- flex-box 
+		- child properties [grow shrink ordere basis align-self]
+		- flex: grow shrink basis | 0 1 auto
+	- grid [auto-fit, auto-fill, minmax]
+	- transition [duration, delay, property, timing-function, short hand]
+	- transform [2D , 3D]
+	     2D	- scale [x,y , scale]
+		- rotate
+		- skew [x,y , scale]
+		- translate [x,y , scale]
+		- matrix: scaleX skewY skewX scaleY translateX translateY
+		- transform-origin [defaults 50% 50% 0 for x,y,z]
+			[css unit, %, keyword like (left right top bottom center)]
+	- animation 
+	 	- creation through @keyframes animation-name {}
+	 	- using the name
+	 		- name duration iteration-count delay direction play-state fill-mode
+	- selectors [deep]
+		- * , element, .class , #id
+		- selector selector | selector > selector
+		- .class1.class2 | element.class1.class2
+		- selector + selector | selector ~ selector
+		- [attribute] | [attribute=value] | [attribute ~= value] contains A word | [attribute *= value] contains A string | [attribute ^= value] start with string
+		- :first-child last-child only-child
+		- :first-of-type last-of-type only-of-type
+		- :not(selector)
+		- :nth-child(number/odd/even)
+		- :nth-last-child
+		- :nth-of-type
+		- :nth-last-of-type 
