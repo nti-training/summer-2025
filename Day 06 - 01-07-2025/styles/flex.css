@@ -1,0 +1,41 @@
+.container {
+    padding: 5px;
+    background-color: bisque;
+
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    gap: 10px;
+    height: 400px;
+}
+
+.child {
+    background-color: brown;
+    color: #fff;
+    font-size: 22px;
+
+    /* flex-basis: 70px; */
+    /* height: 70px; */
+    width: 70px;
+    
+}   
+
+.one {
+    background-color: blue;
+    flex-grow: 1;
+    order: 2;
+    align-self: flex-end;
+}
+.four {
+    background-color: black;
+    flex-grow: 2;
+    order: 1;
+    align-self: stretch;
+}
+.seven{
+    background-color: turquoise;
+    flex-shrink: 2;
+    order: -1;
+    align-self: flex-start;
+    /* flex: ; */
+}

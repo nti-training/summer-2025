@@ -1,0 +1,14 @@
+.grid {
+    background-color: antiquewhite;
+    padding: 20px;
+    color: #fff;
+    height: 300px;
+
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(60px , 1fr)) ;
+}
+
+.child {
+    background-color: blueviolet;
+}

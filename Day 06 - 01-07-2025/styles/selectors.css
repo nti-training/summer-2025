@@ -1,0 +1,26 @@
+p {
+    background-color: bisque;
+}
+
+p[title = "welcome"]{
+    color: red;
+}
+
+p[title ~= "welcome"]{
+    background-color: rgb(201, 165, 237);
+}
+
+p[title *= "welcome"]{
+    text-align: center;
+}
+p[title ^= "welcome"]{
+    padding: 10px;
+}
+
+div :first-child{
+    border: 5px solid red;
+}
+
+:first-of-type{
+    border-right: 5px solid green;
+}

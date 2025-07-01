@@ -1,0 +1,39 @@
+.container {
+    background-color: #dc8b8b;
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    perspective: 600px;
+
+}
+.card {
+    background-color: antiquewhite;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    transition: 1s;
+    transform-style: preserve-3d;
+    transform-origin: left;
+    
+}
+.card:hover {
+    transform: translateX(100%)  rotateY(-180deg);
+}
+
+.card-face {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+    display: grid;
+    place-content: center;
+    backface-visibility: hidden;
+} 
+
+.card-front{
+    background-color: yellow;
+}
+.card-back{
+    background-color: aqua;
+    transform: rotateY(180deg)
+}

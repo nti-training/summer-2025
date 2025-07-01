@@ -1,0 +1,129 @@
+div {
+    background-color: tan;
+    color: white;
+    padding: 15px;
+    display: grid;
+    place-content: center;
+    width: 300px;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px auto;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.trans:hover {
+    background-color: brown;
+    transform: translate(100px, 50px);
+    -webkit-transform: translate(100px, 50px);
+    -moz-transform: translate(100px, 50px);
+    -ms-transform: translate(100px, 50px);
+    -o-transform: translate(100px, 50px);
+}
+
+.skew {
+
+    background-color: transparent;
+    position: relative;
+}
+
+.skew::after {
+    content: "";
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform: skew(25deg);
+    -webkit-transform: skew(25deg);
+    -moz-transform: skew(25deg);
+    -ms-transform: skew(25deg);
+    -o-transform: skew(25deg);
+    z-index: -1;
+}
+
+.scale {
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    border: 10px solid #888;
+    overflow: hidden;
+
+
+}
+
+.scale img {
+    width: 100%;
+    height: 200px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.scale img:hover {
+    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+}
+
+section {
+    position: relative;
+    width: 50%;
+    height: 200px;
+    padding: 0;
+    background-color: tomato;
+    margin: auto;
+    color: #fff;
+    display: grid;
+    place-content: center;
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+
+    transform-origin: left;
+}
+
+.rotate:hover {
+    /*transform-style,backface-visibility:;
+    ,perspective-origin: ;
+    */
+    transform: translateX(100%) rotatey(-180deg);
+    
+
+    /* transform: translateZ(100px); */
+}
+
+.rotate::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    /*margin: auto;
+    */
+    border-radius: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+main {
+    perspective: 600px;
+    width: 400px;
+    margin: auto;
+    background-color: rgb(89, 0, 255);
+    display: flex;
+    justify-content: center;
+}
