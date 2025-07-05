@@ -1,0 +1,36 @@
+body :not(h1) {
+    border: 3px solid green;
+    text-align: center;
+}
+
+:is(h2){
+    border: 3px solid tan;
+    background-color: teal;
+}
+
+div:has(h1){
+    background-color: rebeccapurple; /*div*/
+}
+
+div > h1 {
+  /*h1*/
+}
+h2 {
+    padding: 20px;
+}
+h2 {
+    padding: initial;
+}
+
+p {
+    margin: 0;
+}
+
+p{
+    margin: 20px;
+}
+
+p{
+        margin: initial;
+
+ }

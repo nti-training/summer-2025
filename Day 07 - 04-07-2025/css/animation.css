@@ -1,0 +1,71 @@
+p {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 100px auto;
+
+    animation-name: custom-anim;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+    animation-delay: 1s;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation-fill-mode: both;
+    animation-play-state: running;
+    /* animation-direction: ; */
+
+}
+
+p:hover{
+    animation-play-state: paused;
+}
+@keyframes custom-anim {
+    /* from{
+        background-color: black;
+    }   
+    to{
+        background-color: red;
+    } */
+
+    0%{
+        background-color: black;
+    }
+    20%{
+        background-color: brown;
+    }
+    50%{
+        background-color: burlywood;
+    }
+    80%{
+        background-color: blueviolet;
+    }
+    100%{
+        background-color: yellowgreen;
+    }
+}
+
+
+.spinner{
+    /* background-color: red; */
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 6px solid #000;
+    margin: auto;
+
+    border-left-color: transparent;
+    animation-name: spinner-animation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+}
+
+@keyframes spinner-animation {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

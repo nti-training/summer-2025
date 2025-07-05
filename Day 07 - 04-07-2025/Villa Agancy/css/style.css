@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-padding: 15%;
+    --secondary-color: rgb(163, 162, 164);
+    --main-color: rgb(164, 84, 5);
+}
+
+header{
+    padding: 0 var(--main-padding);
+    
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    height: 6vh;
+    /* background-color: red; */
+    align-items: center;
+    padding: 1rem var(--main-padding);
+}
+
+
+.left {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    /* background-color: rebeccapurple; */
+    color: var(--secondary-color);
+}
+
+.left p {
+    font-size: 12px;
+}
+
+.left > div {
+    display: flex;
+    gap: 1rem;
+}
+.left .fa-solid{
+    color: var(--main-color) ;
+}
+
+.right {
+    /* background-color: rgb(108, 108, 12); */
+
+    display: flex;
+    gap:1rem; 
+    
+}
+.right .fa-brands{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    display: inline-grid;
+    place-content: center;
+    color: #fff;
+}
+.right .fa-brands:hover{
+    background-color: var(--main-color);
+    cursor: pointer;
+}
+
+
+@media (width<992px) {
+    .top{
+        display: none;
+    }
+}
+
+.divider{
+    height: 0.4px;
+    background-color: var(--secondary-color);
+}
+
+body{
+    min-height: 5000px;
+}
+/* Header Style */
+header {
+    display: flex;
+    /* background-color: #999; */
+    align-items: center;
+    gap: 2rem;
+    height: 12vh;
+    /* background-color: red; */
+    position: sticky;
+    top: 0;
+}
+header .logo{
+    text-transform: uppercase;
+    /* background-color: rebeccapurple; */
+}
+header nav {
+    /* child */
+    flex-grow: 1;
+    /* background-color: red; */
+
+    /* flex - parent */
+    display: flex;
+    justify-content: flex-end;
+    gap: 4rem;
+
+}
+
+header  nav a {
+    text-decoration: none;
+    /* color: var(--secondary-color); */
+    color: black;
+    font-size: 16px;
+}
+
+
+header .schedule{
+    background-color: black;
+    color: #fff;
+    
+    border-radius: 16px;
+   height: 40px;
+   width: 150px;
+    position: relative;
+    display: grid;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+    /* font-size: ; */
+}
+
+header .schedule .fa-calendar{
+    position: absolute;
+    background-color: var(--main-color);
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+    left: -8px;
+    top: 0;
+}
+
+.fa-bars{
+    display: none;
+    font-size: 24px;
+}
+
+@media (width< 1200px) {
+    header nav {
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 992px) {
+    header nav{
+        display: none;
+    }
+    header .schedule{
+        display: none;
+    }
+    header .fa-bars{
+        display: block;
+    }
+    header{
+        justify-content: space-between;
+    }
+}
