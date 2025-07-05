@@ -1,0 +1,12 @@
+- :not(selector)
+- :nth-child(number/odd/even)
+- :nth-last-child
+- :nth-of-type
+- :nth-last-of-type 
+
+- global values
+    - inherit
+    - initial [default value]
+    - unset [inherit or initial]
+    - revert [user agent stylesheet]
+bootstrap intro
