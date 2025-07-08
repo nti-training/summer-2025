@@ -1,0 +1,18 @@
+.px-10{
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.left-font{
+    font-size: 60px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.icon + p {
+    height: 100%;
+    margin-bottom: 0;
+}
