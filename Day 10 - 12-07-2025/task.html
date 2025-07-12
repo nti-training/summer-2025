@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/task.css">
+</head>
+
+<body>
+
+    <div class="container d-flex">
+        <input type="text" id="input-age"  class="form-control w-25 border border-success">
+        <button id="btn-check" class="btn btn-primary">Check Voting Right</button>
+    </div>
+    <div id="res" class="container text-light p-2 d-none mt-2"></div>
+
+    <hr>
+    <div class="container">
+        <div class="row row-gap-2">
+            <div class="col-4">
+                <input type="text" id="first-input" class="form-control" placeholder="first number">
+            </div>
+            <div class="col-4">
+                <input type="text" id="second-input" class="form-control" placeholder="second number">
+            </div>
+            <div class="col-4">
+                <input type="text" id="operator-input" class="form-control" placeholder=" + * - /">
+            </div>
+            <div class="col-2">
+                <button id="plus-btn" class="btn btn-primary">+</button>
+            </div>
+            <div class="col-2">
+                <button class="btn btn-primary">-</button>
+            </div>
+            <div class="col-2">
+                <button class="btn btn-primary">*</button>
+            </div>
+            <div class="col-2">
+                <button class="btn btn-primary">/</button>
+            </div>
+            <div class="col-2">
+                <button class="btn btn-primary">**</button>
+            </div>
+            <div class="col-2">
+                <button class="btn btn-primary">%</button>
+            </div>
+            <button class="col-12 btn btn-success" id="case-btn">Calculate</button>
+            <div class="col-12 p-2 d-none" id="res-div"></div>
+        </div>
+    </div>
+    <script src="js/task.js"></script>
+</body>
+
+</html>
