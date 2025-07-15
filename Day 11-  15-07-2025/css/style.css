@@ -1,0 +1,11 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.product{
+    background-color: tomato;
+    color: wheat;
+    padding: 10px;
+}
