@@ -1,0 +1,45 @@
+/* 
+0- OOP in JS
+    - what is OOP
+    - Class Vs Instance
+    - Create Class
+    - Static
+    - Inheritance
+    - Encapsulation
+    -  
+
+1- JSON => Java script object notation
+ string -number - object - array - boolean - null 
+
+
+2- API => Application programming Interface
+ public - private [secret key]
+ origin 
+
+
+3- Sync Vs Async
+ callstack | callback queue
+
+Ajax => Asyncronous Javascript and XML
+  XMLHttpRequest
+    readyState 
+        0 => not intinalized
+        1 => server connection established
+        2 => request recieved
+        3 => processing request
+        4 => request finished and response ready
+
+    status
+        200 => response is successful
+        404 => not found
+
+*/
+
+let jsonResult = `
+
+"data" : [{} , {} , {} ]
+`
+
+let obj =  {
+    key :"value"
+}
