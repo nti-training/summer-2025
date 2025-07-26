@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">Products</a>
+                    <a class="nav-link" href="#">Users</a>
+                    <a class="nav-link" href="#">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container p-5">
+        <form action="" id="form-register">
+            <div class="row row-gap-4">
+                <div class="col-12 col-md-6">
+                    <label class="form-label">First Name</label>
+                    <input type="text" class="form-control" required id="fname-input">
+                    <div class="invalid-feedback" id="fname-validate">
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <label class="form-label">Last Name</label>
+                    <input type="text" class="form-control" required id="lname-input">
+                    <div class="invalid-feedback" id="lname-validate">
+
+                    </div>
+                </div>
+                <div class="col-12">
+                    <label class="form-label">email</label>
+                    <input type="email" class="form-control" id="email-input">
+                    <div class="invalid-feedback" id="email-validate">
+
+                    </div>
+                </div>
+                <div class="col-12">
+                    <label class="form-label">Phone</label>
+                    <input type="tel" class="form-control" id="phone-input">
+                    <div class="invalid-feedback" id="phone-validate">
+
+                    </div>
+                </div>
+
+                <div class="col-12 d-flex flex-column flex-md-row column-gap-4">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input skills" >
+                        <label for="" class="form-checl-label" value="html">HTML</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input skills"  value="css">
+                        <label for="" class="form-checl-label">CSS</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input skills"  value="js">
+                        <label for="" class="form-checl-label">JS</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input skills"  value="bootstrap">
+                        <label for="" class="form-checl-label">Bootstrap</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input skills"  value="react">
+                        <label for="" class="form-checl-label">React</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input skills"  value="node">
+                        <label for="" class="form-checl-label">Node</label>
+                    </div>
+                </div>
+
+                <div class="col-12 row">
+                    <div class="col-6">
+                        <label for="" class="form-label">Gender</label>
+                        <select name="" id="">
+                            <option value="">Male</option>
+                            <option value="">Female</option>
+                        </select>
+                    </div>
+
+                    <div class="col-6">
+                        <label for="" class="form-label">Birth Date</label>
+                        <input type="date" name="" id="">
+                    </div>
+
+
+                </div>
+                <div class="col-12 d-flex column-gap-4">
+                    <input class="form-control" type="password" name="" id="" placeholder="complex password">
+                    <input class="form-control" type="password" name="" id="" placeholder="retype the password">
+                </div>
+
+                <div class="col-6 mx-auto pt-5">
+                    <button class="btn btn-success w-100">Register</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/user-model.js"></script>
+    <script src="js/helper.js"></script>
+    <script src="js/handler.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

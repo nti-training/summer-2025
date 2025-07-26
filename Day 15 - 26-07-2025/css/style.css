@@ -1,0 +1,31 @@
+.tabs-container {
+    display: flex;
+    gap: 10px 2px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 6px 12px;
+    border-radius: 5px;
+    
+}
+.btn:hover{
+    background-color: #eee;
+}
+.active.btn{
+     background-color: blueviolet;
+    color: white;
+}
+.tab {
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(211, 177, 243);
+    height: 40vh;
+    display: grid;
+    place-content: center;
+    display: none;
+}
+.tab-active{
+    display: block;
+}
